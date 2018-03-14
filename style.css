@@ -1,0 +1,126 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+  color: red;
+  font-size: 40px;
+  line-height: 1.5em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  color: #7d7d7d;
+  font-size: 20px;
+/*  line-height: 1.6em;
+  margin-top: 3px;
+  margin-bottom: 3px;
+*/}
+
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 200;
+  color: red;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a {
+  color: #ccc;
+   text-decoration: none;
+}
+
+.btn-red {
+  border: none;
+  background-color: #D23333;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0px 2px rgba(0,0,0,0.15);
+}
+
+.img-circle {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.card {
+  background-color: white;                          /* White background */
+  width: 80%;
+  margin: 10px auto;
+  padding-bottom: 30px;                              /* Internal space */
+  padding-bottom: 30px;                              /* Internal space */
+  padding-left: 30px;                              /* Internal space */
+  padding-right: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 7px 5px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  border: 1px solid grey;       /* OR subtle border */;
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.small-text {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 50;
+  color: #7d7d7d;
+  font-size: 15px;
+/*  line-height: 1.6em;
+  margin-top: 3px;
+  margin-bottom: 3px;
+*/}
+
+.img-descr {
+  height:166px;
+  width: 250px;
+  border-radius: 10%;
+  margin-right: 20px;
+}
+
+.table {
+  text-align: start;
+  margin-top: 0px;
+  padding-top: 0px;
+}
