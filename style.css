@@ -39,38 +39,71 @@ h1 {
 
 h2 {
   font-family: 'Ubuntu', sans-serif;
-  font-weight: 300;
-  color: #d23333;
-  font-size: 20px;
-/*  line-height: 1.6em;
-  margin-top: 3px;
-  margin-bottom: 3px;
-*/}
-
-h3 {
-  font-family: 'Ubuntu', sans-serif;
   font-weight: 200;
   color: #d23333;
   font-size: 25px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
+
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  color: #d23333;
+  font-size: 20px;
+}
+
+
+.main-text {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 50;
+  color: #7d7d7d;
+  font-size: 20px;
+}
+
+
 
 a {
   color: #ccc;
   text-decoration: none;
 }
 
+
+a:hover {
+  color: #d23333;
+}
+
+.fab:hover {
+  color: #d23333;
+}
+
+p {
+    text-align: justify;
+    display: block;
+    margin-bottom: 1em;
+  }
+
+td {
+    vertical-align: top;
+  }
+
 .btn-red {
   border: none;
-  background-color: #d23333;
+  background-color: grey;
   border-radius: 4px;
   color: white;
   padding: 10px;
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   box-shadow: 0px 2px rgba(0,0,0,0.15);
+  vertical-align: center;
 }
+
+.btn-red:hover {
+    color: #d23333;
+}
+
 
 .img-circle {
   border-radius: 50%;
@@ -87,7 +120,8 @@ a {
   padding-bottom: 30px;                              /* Internal space */
   padding-bottom: 30px;                              /* Internal space */
   padding-left: 30px;                              /* Internal space */
-  padding-right: 30px;                              /* Internal space */
+  padding-right: 30px;
+  padding-left: 15px;                            /* Internal space */
   border-radius: 4px;                         /* Small radius */
   box-shadow: 7px 5px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
   border: 1px solid grey;       /* OR subtle border */;
@@ -108,20 +142,13 @@ a {
   font-weight: 50;
   color: #7d7d7d;
   font-size: 15px;
-/*  line-height: 1.6em;
-  margin-top: 3px;
-  margin-bottom: 3px;
-*/}
+  text-align: center;
+}
 
 .img-descr {
   height:166px;
   width: 250px;
   border-radius: 10%;
   margin-right: 20px;
-}
-
-.table {
-  text-align: start;
-  margin-top: 0px;
-  padding-top: 0px;
+  margin-bottom: 30px;
 }
